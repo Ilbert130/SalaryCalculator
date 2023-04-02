@@ -1,7 +1,13 @@
 
+//determining the unemployment payment
+export const unemployment = (dailySalary, year = 0, month=0) => {
 
+    if(!year || year === 0){
+        return daysByMonths(dailySalary, month);
+    }
 
-
+    return daysByYears(dailySalary, year) + daysByMonths(dailySalary, month);
+}
 
 
 //Calculating the days by Years
