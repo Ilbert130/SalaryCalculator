@@ -5,3 +5,22 @@
   color: white;
   margin: 0px;
 }
+
+.separation{
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+#aling1 {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+#aling2 {
+  text-align: left;
+  margin-left: 0;
+}
