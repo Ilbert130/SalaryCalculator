@@ -14,3 +14,17 @@ const daysByYears = (dailySalary, year) => {
         return (dailySalary*23)*year;
     }
 }
+
+//Calculating the days by months
+const daysByMonths = (dailySalary, month) => {
+
+    if(month>=3 && month <=5){
+        return  dailySalary * 6;
+
+    }else if(month>=6 && month <=11){
+        return dailySalary * 13;
+
+    }else{
+        return 0;
+    }
+}
