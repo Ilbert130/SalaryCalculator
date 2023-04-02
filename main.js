@@ -1,4 +1,4 @@
-import { app } from './src/uses-cases/app'
+import { app } from './src/app'
 import './style.css'
 
 
